@@ -1,0 +1,53 @@
+.flex-w{display: flex; justify-content: space-around;margin-bottom: 50px;}
+.flex-y{display: flex;justify-content: space-around;border: darkolivegreen dashed green}
+
+
+table {
+    background: lightblue;
+    /* border: 2px dashed green; */
+    
+   
+    margin: 10px;
+   
+   
+
+}
+table> header{
+    border: 1px solid rgb(58, 42, 12) dashed;
+    width:  50px;
+    height: 30px;
+    
+
+    
+}
+
+ section{
+    
+    background: lightblue;
+    display: inline-block;
+    width: 20%;
+    height: 50%;
+    
+    
+    text-align: start;
+
+    
+  
+   
+}
+footer>div{
+    display: inline-block;
+    background: lightblue;
+    border: 2px dashed green;
+   /* display: flex; justify-content: space-around;  */
+}
+
+label {
+    display: inline-block;
+    width: 150px;
+}
+
+th,td {
+    padding: 0 15px;
+    border: 1px solid black
+}

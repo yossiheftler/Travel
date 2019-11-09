@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>yossiheftlerTravels</title>
+    <link rel="stylesheet" type="text/css" href="travel.css" />
+</head>
+
+<body>
+    <div>
+        <header>
+
+            <div class="flex-w destenations">
+
+
+                <table>
+                    <thead>
+                        <tr>
+                            <th>
+                                code
+                            </th>
+                            <th>
+                                name
+                            </th>
+                            <th>
+                                price
+                            </th>
+                        </tr>
+                    </thead>
+
+                    <tbody></tbody>
+
+                </table>
+                <section>
+
+                    <table >
+
+
+
+                        <label for="name">Name</label>
+                        <input id="name">
+
+                        <br>
+
+
+                        <label for="personal">personalID</label>
+                        <input id="personal">
+
+                        <br>
+
+
+                        <label for="travel">travelID</label>
+                        <input id="travel">
+
+                        <br>
+
+
+                        <label for="passenger">passenger</label>
+                        <input id="passenger">
+                        <br>
+
+                        
+                        <button class="button" onclick="orders()">send</button>
+
+
+                    </table>
+                </section>
+            </div>
+            
+        </header>
+        <footer>
+
+<div>
+            <table class="order">
+                <thead>
+                    <tr>
+                        <th>
+                            Total
+                        </th>
+                        <th>
+                            passengers
+                        </th>
+                        <th>
+                            travelID
+                        </th>
+                        <th>
+                            personalID
+                        </th>
+                        <th>
+                            name
+                        </th>
+                        <th>
+                            code
+                        </th>
+
+                    </tr>
+
+                </thead>
+                <tbody></tbody>
+            </table>
+</div>
+           
+                <div>
+                    <label for="uname">find by name</label>
+                    <input type="text" id="uname">
+
+                    <button onclick="sbutton()">find</button>
+               <br>
+                <table class="search">
+
+                    <tr>
+                        <th>
+                            Total
+                        </th>
+                        <th>
+                            passengers
+                        </th>
+                        <th>
+                            travelID
+                        </th>
+                        <th>
+                            personalID
+                        </th>
+                        <th>
+                            name
+                        </th>
+                        <th>
+                            code
+                        </th>
+                        <tbody></tbody>
+
+
+
+                    </tr>
+
+
+                </table>
+          
+        </div>
+            <div>
+                
+                    <thead>
+                        <tr>
+                            <th>
+                                <select class="selected" onchange="selector()">
+                                    <option value="jerusalem">jerusalem</option>
+                                    <option value="London">London</option>
+                                    <option value="paris">paris</option>
+                                    <option value="berlin">berlin</option>
+                                    <option value="oslo">oslo</option>
+                                </select>
+                                <br>
+                                <table class="selectTab">
+                            </th>
+
+                            <th>
+                                Total
+                            </th>
+                            <th>
+                                passengers
+                            </th>
+                            <th>
+                                travelID
+                            </th>
+                            <th>
+                                personalID
+                            </th>
+                            <th>
+                                name
+                            </th>
+                            <th>
+                                code
+                            </th>
+                          
+                        </tr>
+
+                    </thead>
+                    <tbody></tbody>
+                </table>
+            </div>
+
+        </footer>
+        <script src="travel.js"> </script>
+      
+
+
+</body>
+
+</html>
